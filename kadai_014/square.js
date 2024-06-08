@@ -1,7 +1,10 @@
 let num = 10;
+let answer
 
 const nijou = (number) => {
-  console.log(number * number);
+  return number * number;
 }
 
-nijou(num);
+answer = nijou(num);
+
+console.log(answer);
